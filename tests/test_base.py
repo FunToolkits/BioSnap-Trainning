@@ -1,5 +1,7 @@
-from biosnap_trainning.base import NAME
+from biosnap_Training.base import NAME
 
 
 def test_base():
-    assert NAME == "biosnap_trainning"
+    assert NAME == "biosnap_Training"
+
+

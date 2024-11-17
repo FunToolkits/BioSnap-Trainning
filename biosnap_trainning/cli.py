@@ -1,4 +1,4 @@
-"""CLI interface for biosnap_trainning project.
+"""CLI interface for biosnap_Training project.
 
 Be creative! do whatever you want!
 
@@ -12,7 +12,7 @@ Be creative! do whatever you want!
 def main():  # pragma: no cover
     """
     The main function executes on commands:
-    `python -m biosnap_trainning` and `$ biosnap_trainning `.
+    `python -m biosnap_Training` and `$ biosnap_Training `.
 
     This is your program's entry point.
 
@@ -26,3 +26,5 @@ def main():  # pragma: no cover
         * Run an application (Flask, FastAPI, Django, etc.)
     """
     print("This will do something")
+
+

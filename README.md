@@ -1,85 +1,57 @@
+# BioSnap Training
 
-# Python Project Template
+This is the Training module for the BioSnap App, all copyright, contribution guidelines, tips, user guidelines are the same of the BioSnap main repository, below is a recreation of set files for easier navigation.
 
-A low dependency and really simple to start project template for Python Projects.
+## Setup
 
-See also 
-- [Flask-Project-Template](https://github.com/rochacbruno/flask-project-template/) for a full feature Flask project including database, API, admin interface, etc.
-- [FastAPI-Project-Template](https://github.com/rochacbruno/fastapi-project-template/) The base to start an openapi project featuring: SQLModel, Typer, FastAPI, JWT Token Auth, Interactive Shell, Management Commands.
-
-### HOW TO USE THIS TEMPLATE
-
-> **DO NOT FORK** this is meant to be used from **[Use this template](https://github.com/rochacbruno/python-project-template/generate)** feature.
-
-1. Click on **[Use this template](https://github.com/rochacbruno/python-project-template/generate)**
-3. Give a name to your project  
-   (e.g. `my_awesome_project` recommendation is to use all lowercase and underscores separation for repo names.)
-3. Wait until the first run of CI finishes  
-   (Github Actions will process the template and commit to your new repo)
-4. If you want [codecov](https://about.codecov.io/sign-up/) Reports and Automatic Release to [PyPI](https://pypi.org)  
-  On the new repository `settings->secrets` add your `PYPI_API_TOKEN` and `CODECOV_TOKEN` (get the tokens on respective websites)
-4. Read the file [CONTRIBUTING.md](CONTRIBUTING.md)
-5. Then clone your new project and happy coding!
-
-> **NOTE**: **WAIT** until first CI run on github actions before cloning your new project.
-
-### What is included on this template?
-
-- 🖼️ Templates for starting multiple application types:
-  * **Basic low dependency** Python program (default) [use this template](https://github.com/rochacbruno/python-project-template/generate)
-  * **Flask** with database, admin interface, restapi and authentication [use this template](https://github.com/rochacbruno/flask-project-template/generate).
-  **or Run `make init` after cloning to generate a new project based on a template.**
-- 📦 A basic [setup.py](setup.py) file to provide installation, packaging and distribution for your project.  
-  Template uses setuptools because it's the de-facto standard for Python packages, you can run `make switch-to-poetry` later if you want.
-- 🤖 A [Makefile](Makefile) with the most useful commands to install, test, lint, format and release your project.
-- 📃 Documentation structure using [mkdocs](http://www.mkdocs.org)
-- 💬 Auto generation of change log using **gitchangelog** to keep a HISTORY.md file automatically based on your commit history on every release.
-- 🐋 A simple [Containerfile](Containerfile) to build a container image for your project.  
-  `Containerfile` is a more open standard for building container images than Dockerfile, you can use buildah or docker with this file.
-- 🧪 Testing structure using [pytest](https://docs.pytest.org/en/latest/)
-- ✅ Code linting using [flake8](https://flake8.pycqa.org/en/latest/)
-- 📊 Code coverage reports using [codecov](https://about.codecov.io/sign-up/)
-- 🛳️ Automatic release to [PyPI](https://pypi.org) using [twine](https://twine.readthedocs.io/en/latest/) and github actions.
-- 🎯 Entry points to execute your program using `python -m <biosnap_trainning>` or `$ biosnap_trainning` with basic CLI argument parsing.
-- 🔄 Continuous integration using [Github Actions](.github/workflows/) with jobs to lint, test and release your project on Linux, Mac and Windows environments.
-
-> Curious about architectural decisions on this template? read [ABOUT_THIS_TEMPLATE.md](ABOUT_THIS_TEMPLATE.md)  
-> If you want to contribute to this template please open an [issue](https://github.com/rochacbruno/python-project-template/issues) or fork and send a PULL REQUEST.
-
-[❤️ Sponsor this project](https://github.com/sponsors/rochacbruno/)
-
-<!--  DELETE THE LINES ABOVE THIS AND WRITE YOUR PROJECT README BELOW -->
-
----
-# biosnap_trainning
-
-[![codecov](https://codecov.io/gh/FunToolkits/BioSnap-Trainning/branch/main/graph/badge.svg?token=BioSnap-Trainning_token_here)](https://codecov.io/gh/FunToolkits/BioSnap-Trainning)
-[![CI](https://github.com/FunToolkits/BioSnap-Trainning/actions/workflows/main.yml/badge.svg)](https://github.com/FunToolkits/BioSnap-Trainning/actions/workflows/main.yml)
-
-Awesome biosnap_trainning created by FunToolkits
-
-## Install it from PyPI
+To setup the source code, do the following.
 
 ```bash
-pip install biosnap_trainning
+$ chmod +x ./scripts/setup.sh
+$ ./scripts/setup.sh
 ```
 
-## Usage
+or, in windows:
 
-```py
-from biosnap_trainning import BaseClass
-from biosnap_trainning import base_function
-
-BaseClass().base_method()
-base_function()
+```ps1
+> chmod +x ./scripts/setup.ps1
+> ./scripts/setup.ps1
 ```
+
+To run, do the following.
 
 ```bash
-$ python -m biosnap_trainning
-#or
-$ biosnap_trainning
+$ pipenv run python -m biosnap_Training
 ```
 
-## Development
+or, in windows:
 
-Read the [CONTRIBUTING.md](CONTRIBUTING.md) file.
+```ps1
+> pipenv run python -m biosnap_Training
+```
+
+## Making Contributions
+
+Contributions are always welcome
+
+see `contribuindo.md` to know where to begin.
+
+please, follow the `code of conduct` from this project.
+
+## FAQ
+
+### Why is the source code copyrighted?
+
+We wanted to limit the redistribution of the project, since it is going to be hosted on the Play Store, and we wanted to be able to obtain funds from users so that we can continue developing our projects, so we are going to host a free version with Ads and a paid version without any Ads, we hope you understand.
+
+### So, Why is it on Github?
+
+We believe in transparency, privacy and respecting the anonymity of our users, which is why we provide all the code here to be reviewed, and we believe in co-creation, as we are a small organization that aims to carry out fun but impactful projects, our ability to analyze problems in the source code, solve bugs, improve performance, as well as have ideas that add to the project are very limited, apart from the fact that a user's perspective often differs from that of the project creator, in addition to the different points of view that a joint creation can provide as opposed to a solo creation.
+
+### How to make a contribution?
+
+We have the file `contribution.md` describing the whole process, even if you don't code, you still can make a contribution by give suggestion and voting for them, as other forms of contribution that are beyond just coding, the details are in that file.
+
+**BioSnap © 2024 by Gabriel Rivetti is licensed under Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International License.**
+
+
